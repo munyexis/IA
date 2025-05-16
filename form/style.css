@@ -1,0 +1,50 @@
+.margin{
+margin: 0;
+padding: 0;
+box-sizing: b;
+font-family: "poppins",sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image:url(iiiiiimg.webp) ;
+border-radius: 20;
+background-size: cover;
+
+
+}
+
+.wraper{
+    border-radius: 20px;
+    background-color: rgba(180, 177, 178, 0.619);
+    width: 4000;
+    height: 4000;
+  
+
+}
+h1{
+color: rgb(236, 25, 25);
+justify-items: center;
+}
+
+.in{
+border-radius: 30px;
+box-shadow: none;
+border-color: white
+
+}
+.on{
+    border-radius: 20px;
+    box-shadow: none;
+    border-color: white
+}
+.btn{
+    border-radius: 10px;
+    box-shadow: none;
+    border-color: white;
+    background-color: blue;
+    
+}
