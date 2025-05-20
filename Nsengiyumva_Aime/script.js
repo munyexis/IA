@@ -17,6 +17,6 @@
         return;
       }
 
-      alert('Registration successful!');
+      alert('Registration successful! Thank you for signing up.');
       form.reset();
     });
