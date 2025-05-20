@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(msft_nostalgia_landscape.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.logo{
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+}
+.nav .links{
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.nav .links:hover{
+    color: #162938;
+}
+.nav .login{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-left: 40px;
+    color: #fff;
+    font-weight: 500;
+    transition: .3s;
+}
+  a .button .login{
+    text-decoration: none;
+}
+  a button:hover .login{
+    text-decoration: none;
+}
+.nav .login:hover{
+    background: #fff;
+    color: #162938;
+}
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 3px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.wrapper .close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25px;
+    height: 34px;
+    background: #162938;
+    border-top-right-radius: 20px;
+    color: #fff;
+
+}
+.wrapper .active {
+    height: 520px;
+}
+
+.form-box{
+    width: 100%;
+    color: #162938;
+}
+.form-box h2{
+    font-size: 2em;
+    color: #162938;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    width: 90%;
+    height: 50px;
+    border-bottom: 4px solid #162938;
+    margin: 30px;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #162938;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: 5px;
+}
+.input-box input{
+    width: 90%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #162938;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #162938;
+    line-height: 57px;
+
+}
+.remember{
+    margin-left: 4px;
+    margin-right: 5px;
+    font-size: .9em;
+    color: #162938;
+    font-weight: 500;
+    margin: 15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.remember label input{
+    color: #162938;
+    margin-left: 32px;
+    margin-right: 3px;
+}
+.remember a{
+    color: #162938;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.remember a:hover{
+    text-decoration: underline;
+}
+.btn{
+    position: relative;
+    width: 90%;
+    height: 45px;
+    margin-left: 30px;
+    background-color: #162938;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+.register{
+    font-size: .9em;
+    color: #162938;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+.register-link{
+    font-size: .9em;
+    color: #162938;
+    text-decoration: none;
+}
+.register-link:hover{
+    text-decoration: underline;
+}
+.they{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+.contin{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1000px;
+    padding: 2px;
+    left: 3%;
+    margin-left: 0%;
+    position: relative;
+    
+    
+    justify-content: center;
+}
+.all{
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    border: 9px #162938 solid;
+    backdrop-filter: blur(25px);
+    visibility: visible;
+}
+.all label{
+    opacity: 0%;
+}
+.all label:hover{
+    opacity: 100%;
+}
+.img{
+    width: 250px;
+}
+.all:hover{
+  border: none;
+  background: transparent;
+  backdrop-filter: blur(0);
+
+}
