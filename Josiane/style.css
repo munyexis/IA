@@ -1,0 +1,27 @@
+body{
+    color: black;
+    background-color:rgb(206, 12, 128);
+    margin-left:4px ;
+}
+.form-container{
+    align-content: normal;
+  width: 500px;
+  height: 500px;
+  background-color: rgb(15, 234, 48);
+  box-shadow: 1px 1px 1.5px rgba(0, 0, 0, 0.3);
+  margin-left: center;
+}
+
+button{
+    background-color: blue;
+    border-radius: 3px;
+}
+input{
+    border-radius: 6px;
+    align-items: center;
+}
+h1{
+    width: 5;
+    height: 100;
+    display: flex;
+}
